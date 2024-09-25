@@ -3,8 +3,8 @@ from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
 import PyPDF2
 
-key = "b2910e5e03fe4418997fbe2685763a90"
-endpoint = "https://ai102servicesbylg.cognitiveservices.azure.com/"
+key = <key>
+endpoint = <endpoint>
 
 # Function to extract text from a PDF file
 def extract_text_from_pdf(pdf_file_path):
